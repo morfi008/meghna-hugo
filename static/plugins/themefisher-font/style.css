@@ -1,16 +1,13 @@
 @font-face {
-  font-family: 'themefisher-font';
-  src:  url('fonts/themefisher-font.eot?ug5hnh');
-  src:  url('fonts/themefisher-font.eot?ug5hnh#iefix') format('embedded-opentype'),
-    url('fonts/themefisher-font.ttf?ug5hnh') format('truetype'),
-    url('fonts/themefisher-font.woff?ug5hnh') format('woff');
+  font-family: 'ledger', 'serif';
+  src: url('https://fonts.googleapis.com/css?family=Ledger&display=swap')
   font-weight: normal;
   font-style: normal;
 }
 
 [class^="tf-"], [class*=" tf-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'themefisher-font' !important;
+  font-family: 'ledger', 'serif' !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -2513,4 +2510,3 @@
 .tf-dribbble:before {
   content: "\e063";
 }
-
